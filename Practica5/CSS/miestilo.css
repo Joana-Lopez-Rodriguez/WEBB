@@ -6,7 +6,7 @@
         .tarjeta .cabecera{
          display: flex;
          padding: 10px;
-         border: rgb(195, 201, 201)solid;
+         border: rgb(0, 8, 14)solid;
          border-radius: 10% 10% 0% 0%;
 
          }
@@ -29,10 +29,10 @@
             text-align: justify;
             font-size: 18px;
             padding: 10px;
-            border: rgb(195, 201, 201)solid;
+            border: rgb(0, 8, 14)solid;
           }
           .tarjeta .pie{
-           border: rgb(195, 201, 201)solid;
+           border:rgb(0, 8, 14)solid;
            border-radius: 0% 0% 10% 10%;
            }
            .tarjeta .pie button{
@@ -40,8 +40,8 @@
                 padding-top: 10px;
                 padding-bottom: 10px;
                 font-size: 20px;
-                background-color: blue;
-                color: aliceblue;
+                background-color: rgb(114, 168, 143);
+                color: rgb(255, 255, 255);
                 margin-top: 30px;
                 margin-bottom: 30px;
                padding-right: 10px;
@@ -51,16 +51,16 @@
                display: flex;
              }
              .colorfondoazul{
-                background-color: blue;
-                color: aliceblue;
+                background-color:  rgb(213, 237, 247);
+                color: rgb(67, 154, 194);
              }
-             .colorfondovioleta{
-                background-color: blueviolet;
-                color: aliceblue;
+             .colorfondorosa{
+                background-color: rgb(255, 133, 198);
+                color: rgb(255, 255, 255);
              }
-             .colorfondoazulclaro{
-                background-color: aquamarine;
-                color: black;
+             .colorfondoverdeclaro{
+                background-color: rgb(217, 248, 215);
+                color: rgb(245, 9, 186);
              }
              .alinearcentro{
                 justify-content: center;
