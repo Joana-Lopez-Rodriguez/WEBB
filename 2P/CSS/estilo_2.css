@@ -1,0 +1,68 @@
+body{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.todo{
+    position: relative;
+    max-width: 590px;
+    width: 100%;
+    border-radius: 0px;
+    padding: 15px;
+    margin: 0 15px;
+    border: #000000 solid;
+    background-color: #ffffff;
+    right: 300px;
+    
+}
+.cabeza h6{
+    position: absolute;
+    font-size: 15px; 
+     
+}
+.cabeza i{
+    position: relative;
+    display: inline-block;
+    width: 2.5em;
+    left: 450px;
+}
+.todo .cuerpo{
+    position: relative;
+    min-height: 600px;
+    margin-right: 100px;
+    margin-right: -2.5vh;
+    margin-left:  -2.5vh;
+    background-color: rgb(240, 237, 237);
+    
+}
+.todo .menu{
+    background-color: black;
+    max-width: 40px;
+    min-height: 480px;
+    
+}
+.todo .menu-superior {
+    background-color: red;
+    max-width: 40px ;
+    min-height: 45px;
+}
+.todo .menu-superior i{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    margin-left: 1vh;
+}
+.todo .cuerpo .menu i{
+
+    display: center;
+    color: white;
+    font-size: 30px;
+    margin-left: 1vh;
+}
+.todo .menu-inferior{
+    background-color: red;
+    max-width: 40px;
+    min-height: 45px;
+}
