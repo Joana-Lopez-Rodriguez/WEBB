@@ -51,3 +51,34 @@ nav ul {
     background: #0aafa4;
 }
 
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: rgb(236, 241, 241);
+    font-size: 13px;
+}
+
+.texto {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0;
+}
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
