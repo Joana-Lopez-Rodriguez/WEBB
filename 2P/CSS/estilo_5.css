@@ -82,3 +82,20 @@ nav ul li a {
     padding-bottom: 15px;
     font-size: 22px;
 }
+.input-box input{
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #0aafa4;
+    outline: none;
+}
+.input-box .textarea{
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0aafa4;
+    outline: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
