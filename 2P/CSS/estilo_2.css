@@ -114,3 +114,41 @@ body{
 .todo .cuerpo .cuerpo-2{
     font-size: 15px;
 }    
+.button{
+    background-color: #ffffff;
+    width: 60px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: rgb(0,0,0,0);
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+} 
+.button::before{
+    position: absolute;
+    content: " ";
+    background-color: #000000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin: 5px;
+    transition: 0.2s;
+}   
+input{
+    display: none;
+} 
+label{
+    font-size: 20px;
+    position: absolute;
+}
+input:checked + .button{
+    background-color: #0875CA;
+}
+input:checked + .button::before{
+    transform: translateX(30px);
+}
+select{
+    position: relative;
+    width: 400px;
+    height: 35px;
+}
