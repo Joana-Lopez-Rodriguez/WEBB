@@ -1,0 +1,18 @@
+.cbp-mc-form {
+	position: relative;
+    
+}
+
+
+.cbp-mc-form:before, 
+.cbp-mc-form:after { 
+	content: " "; display: table; 
+    
+}
+
+.cbp-mc-form:after { 
+	clear: both;
+     
+    
+}
+
