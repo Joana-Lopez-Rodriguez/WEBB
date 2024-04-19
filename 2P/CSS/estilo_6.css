@@ -16,3 +16,23 @@
     
 }
 
+.cbp-mc-column {
+	width: 44%;
+	padding: 10px 30px;
+	float: left;
+    height: 400px;
+}
+.text-large{
+    font-size: 50px;
+    color: #002fff;;
+}
+.text-p{
+    width: 430px;
+}
+.link{
+    align-content: center;
+}
+.text-small{
+    font-size: 11px;
+    text-align: center;
+}
